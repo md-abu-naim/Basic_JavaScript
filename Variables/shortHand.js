@@ -24,5 +24,3 @@ orange = orange * 3
 orange *= 3 // short hand
 
 console.log(orange);
-
-
