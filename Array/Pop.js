@@ -1,6 +1,6 @@
-// ******************************************
-//         JavaScript Lerning Pop()        //
-// ******************************************
+// **********************************************
+//JavaScript Lerning Pop() for remove last index //
+// **********************************************
 
 const friends = ['kalam', 'salam', 'balam', 'khailam']
 console.log(friends); // [ 'kalam', 'salam', 'balam', 'khailam' ]
