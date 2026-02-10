@@ -12,6 +12,6 @@ while(num <= 10){
 let sum  = 10
 while(sum <= 30){
     console.log(sum);
-    sum++
+    sum++   // it's be do
 }
 
