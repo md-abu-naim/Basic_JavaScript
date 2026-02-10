@@ -14,4 +14,3 @@ while(sum <= 30){
     console.log(sum);
     sum++   // it's be do
 }
-
