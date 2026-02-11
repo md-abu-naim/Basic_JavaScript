@@ -39,10 +39,10 @@ while(num2 <= 10){
 
 
 // Get odd numbers
-// let num3 = 1
-// while(num3 <= 10){
-//     if(num3 % 2 === 1){
-//         console.log(num3);
-//     }
-//     num3++
-// }
+let num3 = 1
+while(num3 <= 10){
+    if(num3 % 2 === 1){
+        console.log(num3);
+    }
+    num3++
+}
