@@ -23,9 +23,9 @@ for(let i = 0; i <= 5; i++){
 }
 
 
-// // Sum numbers
-// let sum = 0
-// for(let i = 51; i <= 101; i++){
-//     sum = sum + i
-//     console.log(i, sum);
-// } 
+// Sum numbers
+let sum = 0
+for(let i = 51; i <= 101; i++){
+    sum = sum + i
+    console.log(i, sum);
+} 
