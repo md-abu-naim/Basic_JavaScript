@@ -84,8 +84,8 @@ As Ersa is learning now, she wants to explore more and more. Tell Ersa to genera
 let i = 1;
 
 while (i <= 10) {
-//   console.log(`5 x ${i} = ${5 * i}`);
-  i++;
+    //   console.log(`5 x ${i} = ${5 * i}`);
+    i++;
 }
 
 
@@ -98,7 +98,7 @@ Implement a countdown timer that counts down from 21 to 15.
 
 
 let s = 21
-while(s >= 15){
+while (s >= 15) {
     console.log(s);
     s--
 }
