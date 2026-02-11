@@ -4,7 +4,6 @@
 
  */
 
-/*programming hero*/
 
 let num = 1
 while (num <= 60) {
@@ -43,8 +42,6 @@ while (even <= 100) {
 
 
 /***
-
-Subtask-1:
 
 Display sum of all the odd numbers from 81 to 131.
 
