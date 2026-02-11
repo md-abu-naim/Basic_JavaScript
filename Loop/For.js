@@ -27,5 +27,11 @@ for(let i = 0; i <= 5; i++){
 let sum = 0
 for(let i = 51; i <= 101; i++){
     sum = sum + i
-    console.log(i, sum);
+    // console.log(i, sum);
 } 
+
+
+// Decremental for loop
+for(let num = 10; num >= 5; num--){
+    console.log(num);
+}
