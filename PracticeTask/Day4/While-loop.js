@@ -102,3 +102,4 @@ while (s >= 15) {
     console.log(s);
     s--
 }
+
