@@ -31,6 +31,12 @@ for (let i = 51; i <= 101; i++) {
 }
 
 
+// Incremental for loop
+for (let num = 5; num <= 10; num++) {
+    console.log(num);
+}
+
+
 // Decremental for loop
 for (let num = 10; num >= 5; num--) {
     console.log(num);
