@@ -1,5 +1,5 @@
 // ******************************************
-//      JavaScript Lerning for loop      //
+//      JavaScript Lerning break in loop      //
 // ******************************************
 
 // break using for loop
@@ -14,9 +14,10 @@ for (let i = 0; i <= 150; i++){
 // break using while loop
 let num = 55
 while(num > 20){
-    console.log(num);
+    // console.log(num);
     if(num < 50){
         break
     }
+    console.log(num);
     num--
 }
