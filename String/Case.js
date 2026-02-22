@@ -26,3 +26,20 @@ if(book.toUpperCase() === subject.toUpperCase()){
 }else{
     console.log('its not okk');
 }
+
+
+
+const water = 'water'
+const drink = ' water'
+
+if(water === drink){
+    console.log('its okk');
+}else{
+    console.log('its not okk'); // its not okkk bcs have space
+}
+
+if(water.trim() === drink.trim()){
+    console.log('its okk');  // its okk bcs not space
+}else{
+    console.log('its not okk'); 
+}
