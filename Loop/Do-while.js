@@ -12,7 +12,20 @@ while(i < 10){
 // do while loop
 let n = 0
 do{
-    console.log(0);
+    // console.log(0);
     n++
 }
 while(n < 10)
+
+
+console.log('start');
+
+setTimeout(() => {
+    console.log('timeout');
+}, 0)
+
+Promise.resolve().then(() => {
+    console.log('promise');
+})
+
+console.log('End');
