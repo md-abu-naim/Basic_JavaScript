@@ -5,5 +5,5 @@ const computer = {
     hhd: '504gd'
 }
 
-const keys = Object.keys(computer)
-console.log(keys); // [ 'brand', 'price', 'proccesor', 'hhd' ]
+const values = Object.values(computer)
+console.log(values); // [ 'Lenovo', 12222, 'intel', '504gd' ]
