@@ -10,4 +10,11 @@ for (const num of numbers){
     reverse.unshift(num)
 }
 
-console.log(reverse);
+// console.log(reverse);
+
+const reve = []
+for (let i = 0; i < numbers.length; i++){
+    const num = numbers[i]
+    reve.unshift(num)
+}
+console.log(reve);
