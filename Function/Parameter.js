@@ -23,4 +23,16 @@ function addAll(a, b, c, d,){
     console.log(sum);
 }
 
-addAll(4, 5, 7, 8) // 24
+// addAll(4, 5, 7, 8) // 24
+
+
+function doubleIt(number){
+    const doubled = number * 2
+    console.log(doubled);
+}
+
+const number = 500
+doubleIt(number)
+
+const money = 4000
+doubleIt(money)
