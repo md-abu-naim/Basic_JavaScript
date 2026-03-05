@@ -7,4 +7,17 @@ function sumOfNumbers(numbers){
 }
 
 const nums = sumOfNumbers([1, 4, 52, 85])
-console.log(nums); // 142
+// console.log(nums); // 142
+
+
+function evenNumberOfArray(num){
+    const even = []
+    for(const n of num){
+        if(n % 2 === 0){
+            even.push(n)
+        }
+    }
+    return even
+}
+
+console.log(evenNumberOfArray([1, 4, 52, 85]));
