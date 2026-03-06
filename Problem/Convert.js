@@ -38,3 +38,11 @@ function kgToGm(kg){
 }
 
 // console.log(kgToGm(5)); // 5000
+
+
+function gramToKG(gram){
+    const kg = gram * 0.001
+    return kg
+}
+
+console.log(gramToKG(2000)); // 2
