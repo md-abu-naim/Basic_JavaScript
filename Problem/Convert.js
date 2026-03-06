@@ -14,4 +14,12 @@ function inceToFeet2(ince){
     return feet
 }
 
-console.log(inceToFeet2(68)); // 5 ft 8 ince 
+// console.log(inceToFeet2(68)); // 5 ft 8 ince 
+
+
+function mileToKM(mile){
+    const kilo  = mile * 1.60934
+    return kilo
+}
+
+console.log(mileToKM(5));
