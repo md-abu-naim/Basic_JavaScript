@@ -28,5 +28,23 @@ function oddEven(num){
     }
 }
 
-console.log(oddEven(2)); // 1
-console.log(oddEven(3)); // 6
+// console.log(oddEven(2)); // 1
+// console.log(oddEven(3)); // 6
+
+
+/**
+ * Task-3
+Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
+ */
+
+function make_avg(arr, size){
+    let sum = 0
+    for(const ar of arr){
+        sum = sum + ar
+    }
+    return sum / size
+}
+
+const arr = [5, 4, 7, 2]
+
+console.log(make_avg(arr, arr.length)); // 4.5
