@@ -22,4 +22,11 @@ function mileToKM(mile){
     return kilo
 }
 
-console.log(mileToKM(5));
+// console.log(mileToKM(5)); // 8.0467
+
+function kiloToMile(kilo){
+    const mile = kilo * 0.621371
+    return mile.toFixed(2)
+}
+
+console.log(kiloToMile(kiloToMile(15))); // 5.79
