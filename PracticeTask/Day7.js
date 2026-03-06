@@ -47,4 +47,22 @@ function make_avg(arr, size){
 
 const arr = [5, 4, 7, 2]
 
-console.log(make_avg(arr, arr.length)); // 4.5
+// console.log(make_avg(arr, arr.length)); // 4.5
+
+
+/**
+ * Task-4
+Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.
+ */
+
+function count_zero(strs){
+    let count = 0
+    for(const str in strs){
+        if(strs[str] === '0'){
+            count++
+        }
+    }
+    return count
+}
+
+console.log(count_zero('00100101'));
