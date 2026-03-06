@@ -29,4 +29,12 @@ function kiloToMile(kilo){
     return mile.toFixed(2)
 }
 
-console.log(kiloToMile(kiloToMile(15))); // 5.79
+// console.log(kiloToMile(kiloToMile(15))); // 5.79
+
+
+function kgToGm(kg){
+    const gram = kg * 1000
+    return gram
+}
+
+// console.log(kgToGm(5)); // 5000
