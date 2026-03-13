@@ -3,9 +3,9 @@
 Take four parameters. Multiply the four numbers and then return the result
  */
 
-function fourParams(num1, num2, num3, num4){
+function fourParams(num1, num2, num3, num4) {
     const multi1 = num1 * num2
-    const multi2= multi1 * num3
+    const multi2 = multi1 * num3
     const result = multi2 * num4
     return result
 }
@@ -20,11 +20,11 @@ Take a number if the number is odd multiply it by 2 and return the result. If th
  */
 
 
-function oddEven(num){
-    if(num % 2 === 1){
+function oddEven(num) {
+    if (num % 2 === 1) {
         return num * 2
-    }else{
-       return num / 2
+    } else {
+        return num / 2
     }
 }
 
@@ -37,9 +37,9 @@ function oddEven(num){
 Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
  */
 
-function make_avg(arr, size){
+function make_avg(arr, size) {
     let sum = 0
-    for(const ar of arr){
+    for (const ar of arr) {
         sum = sum + ar
     }
     return sum / size
@@ -55,10 +55,10 @@ const arr = [5, 4, 7, 2]
 Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.
  */
 
-function count_zero(strs){
+function count_zero(strs) {
     let count = 0
-    for(const str in strs){
-        if(strs[str] === '0'){
+    for (const str in strs) {
+        if (strs[str] === '0') {
             count++
         }
     }
@@ -73,11 +73,11 @@ function count_zero(strs){
 Write a function called odd_even() which takes an integer value and tells whether this value is even or odd. If even return Even. If odd return Odd
  */
 
-function odd_even(num){
-    if(num % 2 == 0){
+function odd_even(num) {
+    if (num % 2 == 0) {
         return 'Even'
-    }else{
-        return 'Odd' 
+    } else {
+        return 'Odd'
     }
 }
 

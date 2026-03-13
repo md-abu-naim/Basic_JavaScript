@@ -1,4 +1,4 @@
-function inceToFeet(inc){
+function inceToFeet(inc) {
     const feet = inc / 12
     return feet
 }
@@ -6,7 +6,7 @@ function inceToFeet(inc){
 // console.log(inceToFeet(75)); // 6.25
 
 
-function inceToFeet2(ince){
+function inceToFeet2(ince) {
     const feetFraction = ince / 12
     const fetInte = parseInt(feetFraction)
     const feetRe = ince % 12
@@ -17,14 +17,14 @@ function inceToFeet2(ince){
 // console.log(inceToFeet2(68)); // 5 ft 8 ince 
 
 
-function mileToKM(mile){
-    const kilo  = mile * 1.60934
+function mileToKM(mile) {
+    const kilo = mile * 1.60934
     return kilo
 }
 
 // console.log(mileToKM(5)); // 8.0467
 
-function kiloToMile(kilo){
+function kiloToMile(kilo) {
     const mile = kilo * 0.621371
     return mile.toFixed(2)
 }
@@ -32,7 +32,7 @@ function kiloToMile(kilo){
 // console.log(kiloToMile(kiloToMile(15))); // 5.79
 
 
-function kgToGm(kg){
+function kgToGm(kg) {
     const gram = kg * 1000
     return gram
 }
@@ -40,7 +40,7 @@ function kgToGm(kg){
 // console.log(kgToGm(5)); // 5000
 
 
-function gramToKG(gram){
+function gramToKG(gram) {
     const kg = gram * 0.001
     return kg
 }

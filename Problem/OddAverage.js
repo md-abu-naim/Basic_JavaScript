@@ -1,13 +1,13 @@
-function oddAverage(numbers){
+function oddAverage(numbers) {
     const odds = []
     let sum = 0
-    for(const odd of numbers){
-        if(odd % 2 === 1){
+    for (const odd of numbers) {
+        if (odd % 2 === 1) {
             odds.push(odd)
         }
     }
-    
-    for(const number of odds){
+
+    for (const number of odds) {
         sum = sum + number
     }
 

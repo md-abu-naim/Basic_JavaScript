@@ -1,5 +1,5 @@
-function isLeapYear(year){
-    if(year % 4 === 0){
+function isLeapYear(year) {
+    if (year % 4 === 0) {
         return true
     }
     return false
@@ -10,11 +10,11 @@ function isLeapYear(year){
 
 
 
-function isLeapYear2(year){
-    if(year % 100 !== 0 && year % 4 === 0){
+function isLeapYear2(year) {
+    if (year % 100 !== 0 && year % 4 === 0) {
         return true
     }
-    if(year % 400 === 0){
+    if (year % 400 === 0) {
         return true
     }
     return false

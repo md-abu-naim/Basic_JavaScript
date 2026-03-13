@@ -1,6 +1,6 @@
-function sumOfNumbers(numbers){
+function sumOfNumbers(numbers) {
     let sum = 0
-    for(const num of numbers){
+    for (const num of numbers) {
         sum = sum + num
     }
     return sum
@@ -10,10 +10,10 @@ const nums = sumOfNumbers([1, 4, 52, 85])
 // console.log(nums); // 142
 
 
-function evenNumberOfArray(num){
+function evenNumberOfArray(num) {
     const even = []
-    for(const n of num){
-        if(n % 2 === 0){
+    for (const n of num) {
+        if (n % 2 === 0) {
             even.push(n)
         }
     }
@@ -23,10 +23,10 @@ function evenNumberOfArray(num){
 // console.log(evenNumberOfArray([1, 4, 52, 85]));  [ 4, 52 ]
 
 
-function sumEvenNumOfArray(nums){
+function sumEvenNumOfArray(nums) {
     let sum = 0
-    for(const num of nums){
-        if(num % 2 === 0){
+    for (const num of nums) {
+        if (num % 2 === 0) {
             sum = sum + num
         }
     }
