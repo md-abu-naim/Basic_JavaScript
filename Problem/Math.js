@@ -16,3 +16,9 @@ const max = Math.max(41, 52, 4, 88, 7155, 552)
 // Get full 
 // console.log(Math.round(2.25)); // 2
 // console.log(Math.round(2.85)); // 3
+
+// dwon 
+console.log(Math.floor(2.555)); // 2
+
+// upp
+console.log(Math.ceil(2.555)); // 3
