@@ -20,5 +20,5 @@ const max = Math.max(41, 52, 4, 88, 7155, 552)
 // dwon 
 console.log(Math.floor(2.555)); // 2
 
-// upp
+// upper
 console.log(Math.ceil(2.555)); // 3
