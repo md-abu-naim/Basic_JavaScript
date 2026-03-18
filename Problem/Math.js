@@ -18,7 +18,13 @@ const max = Math.max(41, 52, 4, 88, 7155, 552)
 // console.log(Math.round(2.85)); // 3
 
 // dwon 
-console.log(Math.floor(2.555)); // 2
+// console.log(Math.floor(2.555)); // 2
 
 // upper
-console.log(Math.ceil(2.555)); // 3
+// console.log(Math.ceil(2.555)); // 3
+
+
+// random numbers
+console.log(Math.random());
+console.log(Math.random() * 10); // 1 - 10 songkha dibe
+console.log(Math.round(Math.random() * 10)); // full songkha dibe
