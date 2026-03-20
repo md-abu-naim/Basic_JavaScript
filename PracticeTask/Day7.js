@@ -28,8 +28,8 @@ function oddEven(num) {
     }
 }
 
-// console.log(oddEven(2)); // 1
-// console.log(oddEven(3)); // 6
+console.log(oddEven(2)); // 1
+console.log(oddEven(3)); // 6
 
 
 /**
