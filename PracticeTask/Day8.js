@@ -52,4 +52,25 @@ function getVowels(str){
     return count
 }
 
-console.log(getVowels('akashbuio')); // 5
+// console.log(getVowels('akashbuio')); // 5
+
+
+
+/**
+ * Task-4:
+Write a function to find the longest word in a given string.
+
+sample-input: I am learning Programming to become a programmer
+
+sample-output: Programming
+ */
+
+
+
+/**
+ * Task-5:
+Generate a random number between 10 to 20.
+ */
+
+const randomNumber = Math.random() * (20 - 10 + 1) + 10
+// console.log(randomNumber);
