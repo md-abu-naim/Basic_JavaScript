@@ -3,8 +3,8 @@
 Write a function to convert temperature from Celsius to Fahrenheit.
  */
 
-function celsiusToFahrenheit(celsius){
-    const fahrenheit = (celsius * 9/5) + 32
+function celsiusToFahrenheit(celsius) {
+    const fahrenheit = (celsius * 9 / 5) + 32
     return fahrenheit
 }
 
@@ -31,32 +31,34 @@ find: 25
 output: 0
  */
 
-function countOccurrences(numbers, target){
+function countOccurrences(numbers, target) {
     let count = 0
-    
-    for(let i = 0; i < numbers.length; i++){
-        if(numbers[i] === target){
+
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] === target) {
             count++
         }
     }
     return count
 
 }
-const numbers = [5,6,11,12,98, 5]
+const numbers = [5, 6, 11, 12, 98, 5]
 console.log(countOccurrences(numbers, 25)); // 0
 console.log(countOccurrences(numbers, 5)); // 2
+
+
 
 /**
  * Task-3:
 Write a function to count the number of vowels in a string.
  */
 
-function getVowels(str){
+function getVowels(str) {
     const vowels = 'aeiouAEIOU'
-    let count = 0 
+    let count = 0
 
-    for(const st of str){
-        if(vowels.includes(st)){
+    for (const st of str) {
+        if (vowels.includes(st)) {
             count++
         }
     }
@@ -76,12 +78,12 @@ sample-input: I am learning Programming to become a programmer
 sample-output: Programming
  */
 
-function findLongestWord(str){
+function findLongestWord(str) {
     const words = str.split(' ')
     let longestWord = ''
 
     words.forEach(word => {
-        if(word.length > longestWord.length){
+        if (word.length > longestWord.length) {
             longestWord = word
         }
     })
