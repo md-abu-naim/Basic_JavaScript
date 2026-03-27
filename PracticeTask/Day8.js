@@ -31,9 +31,20 @@ find: 25
 output: 0
  */
 
+function countOccurrences(numbers, target){
+    let count = 0
+    
+    for(let i = 0; i < numbers.length; i++){
+        if(numbers[i] === target){
+            count++
+        }
+    }
+    return count
 
-
-
+}
+const numbers = [5,6,11,12,98, 5]
+console.log(countOccurrences(numbers, 25)); // 0
+console.log(countOccurrences(numbers, 5)); // 2
 
 /**
  * Task-3:
@@ -77,7 +88,7 @@ function findLongestWord(str){
     return longestWord
 }
 
-console.log(findLongestWord('I am learning Programming to become a programmer'));
+// console.log(findLongestWord('I am learning Programming to become a programmer')); // Programming
 
 
 /**
